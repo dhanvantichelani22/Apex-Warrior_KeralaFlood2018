@@ -24,15 +24,6 @@
 
 ---
 
-## 👥 Team Members
-
-* 👩 Dhanvanti
-* 👨 Paras
-* 👨 Krushnavardhan
-* 👨 Vedant
-
----
-
 ## ❗ Problem Statement
 
 The Kerala Floods of 2018 were among the most devastating natural disasters in India's history, causing widespread destruction to human life, infrastructure, agriculture, and public property.
@@ -159,19 +150,6 @@ The dataset includes:
 * Power Query
 * DAX
 * Data Modeling
-
----
-
-## 📸 Dashboard Preview
-
-> Add screenshots of your Power BI dashboard here.
-
-Example:
-
-```
-images/dashboard1.png
-images/dashboard2.png
-```
 
 ---
 
