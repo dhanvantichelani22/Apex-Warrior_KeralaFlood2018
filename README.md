@@ -1,198 +1,201 @@
-<div align="center">
-
 # 🌊 Kerala Flood 2018 Analysis
 
-### 📊 Power BI Disaster Analytics Dashboard
+<div align="center">
 
-**👥 Team: Apex Warrior**
+## Power BI Dashboard Project
 
-**Members:** Dhanvanti • Paras • Krushnavardhan • Vedant
+**Team Name:** **Apex Warrior**
 
----
-
-![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
-![Excel](https://img.shields.io/badge/Microsoft%20Excel-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white)
-![DAX](https://img.shields.io/badge/DAX-005A9C?style=for-the-badge)
-![Power Query](https://img.shields.io/badge/Power%20Query-009999?style=for-the-badge)
+**Developed By:**
+**Dhanvanti • Paras • Krushnavardhan • Vedant**
 
 </div>
 
 ---
 
-# 📖 Project Overview
+## 📌 Project Information
 
-The **Kerala Flood 2018 Analysis** project is an interactive **Microsoft Power BI Dashboard** developed to analyze one of India's most devastating natural disasters. The dashboard transforms raw disaster management data into meaningful visual insights, enabling users to understand rainfall trends, flood severity, human impact, infrastructure damage, and relief operations.
-
----
-
-# ❗ Problem Statement
-
-The Kerala Floods of 2018 caused extensive damage to human life, infrastructure, agriculture, and public property. Disaster-related information was spread across multiple datasets, making it difficult to monitor the overall situation and support timely decision-making.
-
-This project addresses that challenge by integrating all available datasets into a centralized Power BI dashboard that enables efficient analysis and visualization.
+| Item              | Details                                                                                                                |
+| ----------------- | ---------------------------------------------------------------------------------------------------------------------- |
+| **Project Title** | Kerala Flood 2018 Analysis Using Power BI                                                                              |
+| **Technology**    | Microsoft Power BI                                                                                                     |
+| **Dataset**       | Kerala Flood 2018 Disaster Management Dataset (Normalized Excel Dataset)                                               |
+| **Objective**     | Analyze rainfall, flood severity, damage, human impact, and relief operations using an interactive Power BI dashboard. |
 
 ---
 
-# 💡 Solution
+## 👥 Team Members
 
-The solution combines multiple normalized datasets into an interactive Power BI dashboard that provides:
-
-- 📈 Rainfall Analysis
-- 🌊 Flood Severity Monitoring
-- 👨‍👩‍👧 Affected Population Analysis
-- 🏠 Infrastructure Damage Assessment
-- 🚑 Relief Camp Monitoring
-- 🚤 Rescue Operation Tracking
-- 📍 District-wise Comparison
-- 📊 Interactive KPI Dashboard
+* 👩 Dhanvanti
+* 👨 Paras
+* 👨 Krushnavardhan
+* 👨 Vedant
 
 ---
 
-# ⚙️ Solution Explanation
+## ❗ Problem Statement
 
-### 📥 Data Collection
+The Kerala Floods of 2018 were among the most devastating natural disasters in India's history, causing widespread destruction to human life, infrastructure, agriculture, and public property.
 
-- Imported normalized Kerala Flood dataset
-- Multiple related tables
-- Excel as data source
+Flood-related information is distributed across multiple datasets such as rainfall records, flood levels, damage reports, relief operations, and affected population data. Analyzing these datasets individually makes it difficult to understand the complete disaster situation.
 
-### 🧹 Data Cleaning
-
-- Removed duplicates
-- Handled missing values
-- Standardized formats
-- Corrected data types
-
-### 🔗 Data Modeling
-
-Created relationships between:
-
-- Main Table
-- Weather
-- Damage
-- Relief
-- Location
-
-using **Record_ID**.
-
-### 📊 Dashboard Development
-
-The dashboard includes:
-
-- KPI Cards
-- Line Charts
-- Bar Charts
-- Area Charts
-- Funnel Charts
-- Pie Charts
-- Maps
-- Interactive Slicers
+This project provides a single interactive Power BI dashboard to support disaster monitoring, decision-making, and resource allocation.
 
 ---
 
-# ✨ Dashboard Features
+## 💡 Solution
 
-- ✔ Executive Dashboard
-- ✔ Rainfall Trend Analysis
-- ✔ Human Impact Dashboard
-- ✔ Damage Analysis
-- ✔ Relief Operations
-- ✔ Interactive Filtering
-- ✔ Drill-through Analysis
-- ✔ Dynamic KPIs
+This project integrates multiple Kerala Flood 2018 datasets into one interactive Power BI dashboard.
 
----
+### Dashboard Features
 
-# 📂 Dataset
-
-The dataset contains information related to:
-
-- Rainfall
-- Flood Levels
-- Rivers
-- Water Levels
-- Affected Families
-- Population
-- Human Casualties
-- Crop Damage
-- Infrastructure Damage
-- Financial Loss
-- Relief Camps
-- Rescue Operations
-- Alert Levels
-- Geographic Coordinates
+* 📈 Monitor rainfall trends
+* 🌧️ Track flood severity and alert levels
+* 👨‍👩‍👧 Analyze affected families and population
+* 🏥 Monitor relief camp operations
+* 🚑 Track rescue resources
+* 🏘️ Visualize infrastructure damage
+* 🌾 Analyze agricultural loss
+* 📊 Compare districts using interactive visuals
 
 ---
 
-# 📈 Future Scope
+## ⚙️ Project Workflow
 
-Future enhancements may include:
+### 1. Data Collection
 
-- 🌦️ Real-Time Weather API Integration
-- 🛰️ GIS & Satellite Mapping
-- 🤖 AI-Based Flood Prediction
-- 📱 Mobile Application
-- 🚨 Early Warning Notification System
-- 📍 Live River Water Monitoring
-- 📊 Predictive Analytics
-- 🏛 Government Disaster Management Integration
+* Imported normalized Kerala Flood 2018 Excel dataset.
+
+### 2. Data Cleaning
+
+* Removed duplicate records
+* Handled missing values
+* Standardized formats
+
+### 3. Data Modeling
+
+Created relationships among:
+
+* Main Table
+* Weather Table
+* Damage Table
+* Relief Table
+* Location Table
+
+using **Record ID**.
+
+### 4. DAX Measures
+
+Created measures for:
+
+* Rainfall
+* Affected Population
+* Casualties
+* Financial Loss
+* Relief Operations
+* Damage Statistics
+
+### 5. Dashboard Visualizations
+
+* KPI Cards
+* Line Charts
+* Area Charts
+* Pie Charts
+* Bar Charts
+* Funnel Charts
+* Maps
+* Slicers
+
+### 6. Insights
+
+The dashboard helps identify:
+
+* High-risk districts
+* Relief effectiveness
+* Flood severity
+* Disaster impact
+* Resource allocation
 
 ---
 
-# 🛠 Technologies Used
+## 🚀 Future Scope
 
-| Technology | Purpose |
-|------------|---------|
-| Microsoft Power BI | Dashboard Development |
-| Microsoft Excel | Data Source |
-| Power Query | Data Transformation |
-| DAX | Calculated Measures |
-| Data Modeling | Relationship Creation |
-
----
-
-# 👥 Team Apex Warrior
-
-| Name | Role |
-|------|------|
-| Dhanvanti | Dashboard Development |
-| Paras | Data Modeling & Visualization |
-| Krushnavardhan | Data Preparation |
-| Vedant | Dashboard Design & Testing |
+* Real-time Weather API Integration
+* River Water Level Monitoring
+* GIS-based Flood Mapping
+* Machine Learning Flood Prediction
+* AI-powered Early Warning System
+* Mobile Application
+* Historical Flood Comparison
+* Predictive Resource Optimization
+* Government System Integration
+* Automated Emergency Notifications
 
 ---
 
-# 📷 Dashboard Preview
+## 📂 Dataset
 
-> Replace the image paths below with your screenshots.
+The dataset includes:
+
+* Rainfall Records
+* Flood Levels
+* Alert Levels
+* Affected Families
+* Affected Population
+* Human Casualties
+* Infrastructure Damage
+* Agricultural Loss
+* Relief Camps
+* Rescue Operations
+* Emergency Resources
+* Geographic Locations
+
+---
+
+## 🛠️ Tools Used
+
+* Microsoft Power BI
+* Microsoft Excel
+* Power Query
+* DAX
+* Data Modeling
+
+---
+
+## 📸 Dashboard Preview
+
+> Add screenshots of your Power BI dashboard here.
+
+Example:
 
 ```
 images/dashboard1.png
 images/dashboard2.png
-images/dashboard3.png
-images/dashboard4.png
 ```
 
-Example:
+---
 
-```markdown
-![Dashboard 1](images/dashboard1.png)
+## ⭐ Repository Structure
 
-![Dashboard 2](images/dashboard2.png)
-
-![Dashboard 3](images/dashboard3.png)
+```
+📂 Kerala-Flood-2018
+│
+├── Dataset/
+├── Dashboard/
+├── Images/
+├── Report.pdf
+├── README.md
+└── KeralaFlood.pbix
 ```
 
 ---
 
 <div align="center">
 
-## ⭐ Team Apex Warrior
+### 🌟 Team Apex Warrior
 
-### Kerala Flood 2018 Analysis
+**Kerala Flood 2018 Analysis Using Power BI**
 
-**Power BI Dashboard Project**
-
-Made with ❤️ for Data Analytics & Disaster Management
+Made with ❤️ by **Apex Warrior**
 
 </div>
